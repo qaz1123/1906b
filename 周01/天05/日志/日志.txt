@@ -158,7 +158,7 @@ es集群搭建
      2、删除节点2的data目录
      3、修改elasticsearch.yml：
 		node.name: usian_node_2
-		discovery.zen.ping.unicast.hosts: ["192.168.233.134:9300", "192.168.233.135:9300"]
+		discovery.zen.ping.unicast.hosts: ["192.168.205.131:9300", "192.168.205.132:9300"]
      4、测试
 	 启动两台节点：自动分配分片
 	 关闭节点2：集群是高可用的
